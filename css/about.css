@@ -1,0 +1,58 @@
+/*CSS for about
+Name: Sahil Sharma
+Student Number: c0949692
+Date: 12/03/2024
+*/
+
+/* General Styles for About Page */
+.white{
+    background-color: white;
+}
+.about-us{
+    background-color:#f4f4f4;
+    padding-bottom: 2em;
+	padding-left: 1em;
+	padding-right: 1em;
+    padding-top: 2em;
+	text-align: center;
+	align-items: center;
+    margin: 2em 10em;
+}
+
+nav ul {
+    list-style: none; 
+    padding: 1em; 
+    margin: 0; 
+    background-color: #f4f4f4; 
+    text-align: center; 
+    display: flex; 
+    justify-content: center; 
+}
+
+/* Inline navigation links */
+nav li {
+    display: inline-block; 
+    margin: 0 0.64em;
+}
+
+/* Link styles */
+nav a {
+    text-decoration: none; 
+    color: black; 
+    padding: 0.5em 1em; 
+}
+
+nav a:hover {
+    color: orange; 
+}
+
+/* For Mobile View */
+@media screen and (max-width: 600px) {
+    nav ul {
+        flex-wrap: wrap; 
+    }
+    nav li {
+        display: block;
+        margin: 0.5em 0;
+    }
+}

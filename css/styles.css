@@ -1,0 +1,153 @@
+/*
+CSS Style for spreadease
+Author Name: Sahil Sharma
+file name : styles for spreadease
+Date : Oct - 18 - 2024
+*/
+/*CSS Reset*/
+body, nav, main, header, h1{
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+/* Universal Reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: white;
+}
+img{
+	max-width: 100%;
+	display: block;
+}
+header{
+	background-color: gray;
+	color: gray;
+	text-align: center;
+	height: 3cm;
+	font-size: 600;
+}
+#black-strip{
+	background-color:gray;
+	height: 3cm;
+	color: black;
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+#logo{
+	position: relative;
+	top: -73px;
+	
+}
+p{
+	color: black;
+	background-color: #f4f4f4;
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	text-decoration: none;
+}
+h1{
+	padding-top: 25px;
+}
+nav{
+	text-align: center;
+	background-color: #f4f4f4;
+}
+nav li{
+	display: inline-block;
+	margin: 1em 0.5em;
+}
+nav li a{
+	padding: 2em;
+	text-decoration: none;
+	color: black;
+	line-height: 1.5em;
+	font-family: Arial, Helvetica, sans-serif;
+}
+nav a{
+	color:#333;
+}
+nav a:hover {
+    color: orange;
+}
+
+nav a.active {
+    color: green;
+    text-decoration: underline;
+}
+#header-img{
+	opacity: 30%;
+}
+.product{
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+	border-bottom: 2px solid black;
+}
+#customer-guarantee{
+	display: flex;
+	align-content: center;
+	justify-content: space-between;
+	font-family: Arial, Helvetica, sans-serif;
+	grid-column: 1/span 4;
+}
+#pic{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+.video{
+	margin-bottom: 2em;
+}
+main{
+	
+	padding-bottom: 2em;
+	padding-left: 1em;
+	padding-right: 1em;
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.6;
+}
+main p{
+	font-size: larger;
+}
+#specials{
+	text-align: center;
+	align-items: center;
+}
+.quality{
+	background-color: peachpuff;
+}
+.about-us{
+	text-align: center;
+	align-items: center;
+}
+.reasons{
+	text-align: left;
+}
+.reasons li {
+	padding: 4px;
+	font-size: large;
+	margin-left: 20px;
+}
+.reasons h2{
+	text-align: center;
+}
+#spreadease{
+	padding-bottom: 2em;
+	padding-left: 1em;
+	padding-right: 1em;
+	border:2px solid black;
+	text-align: center;
+	align-items: center;
+}
+footer{
+	background-color: #333;
+	text-align: center;
+	text-decoration: none;
+	padding: 1em;
+}
+footer p a{
+	text-decoration: none;
+	color: #fff;
+}
